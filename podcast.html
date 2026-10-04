@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Local Business Growth Podcast</title>
+    <style>
+        :root {
+            --bg-color: #0d0f12;
+            --card-bg: #161a22;
+            --accent-color: #38bdf8;
+            --text-color: #f3f4f6;
+            --muted-text: #9ca3af;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .back-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 10px; }
+        h1 span { color: var(--accent-color); }
+        p.subtitle { color: var(--muted-text); font-size: 1.1rem; margin-bottom: 40px; }
+        
+        /* Episode Grid Layout */
+        .episode-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .episode-card {
+            background: var(--card-bg);
+            border: 1px solid #222731;
+            border-radius: 12px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .episode-meta {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        .episode-title {
+            font-size: 1.4rem;
+            margin: 0;
+            color: #fff;
+        }
+        .episode-desc {
+            color: var(--muted-text);
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .cta-inline {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            align-self: flex-start;
+        }
+        .cta-inline:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Briefing Video</a>
+        
+        <h1>The Local Business <span>Growth Podcast</span></h1>
+        <p class="subtitle">Audio insights for busy US & UK business owners. Learn how to dominate Google Maps and fix your inbound leads on your commute.</p>
+
+        <div class="episode-list">
+            
+            <!-- Episode 1 Card -->
+            <div class="episode-card">
+                <div class="episode-meta">Episode 01 • Google Maps Strategy</div>
+                <h3 class="episode-title">The Invisible Business: Why Your Competitors Rule Google Maps</h3>
+                <p class="episode-desc">A deep dive into why your business might be buried on page 3 of local maps, and the hidden cost of letting nearby competitors steal ready-to-buy customers every day.</p>
+                <audio controls>
+                    <source src="audio/episode1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="index.html" class="cta-inline">Too busy to fix this yourself? Secure your territory here ➔</a>
+            </div>
+
+            <!-- Additional Episode placeholders (2 through 10) will go right under here -->
+
+        </div>
+    </div>
+
+</body>
+</html>
